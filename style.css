@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#notification {
+    background-color: #800080;
+    color: #00ff7f;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    border-left-style: solid;
+    border-left-color: hsl(0, 0%, 0%);
+    border-left-width: 5px;
+}
+#notification p {
+    padding-top: 12px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 50px;
+}
+article {
+    width: 500px;
+    margin: 10px auto;
+}
+article p {
+    line-height: 30px;
+    font-size: 1.5em;
+    font-size: 2rem;
+}
+html {
+    font-size: 20px;
+}
+button {
+    background-color: teal;
+    color: black;
+    width: 100px;
+    height: 50px;
+}
+button:visited {
+    background-color: blue;
+    color: black;
+}
+button:hover {
+    background-color: crimson;
+}
+a:visited {
+    color: brown;
+}
